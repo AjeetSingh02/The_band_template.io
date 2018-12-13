@@ -1,1 +1,29 @@
+/* Navigation bar */
 
+
+#search-icon{
+    color:white;
+}
+
+.navigationBar {
+    background-color: black;
+    font-size: 95%;
+    font-family: 'Headland One', serif;
+}
+#navbarContent ul li{
+    padding-right: 30px;
+}
+#navbarContent ul li a{
+    color: #ffffff;
+}
+
+.navbar-nav > li > .dropdown-menu {background-color: black;  }
+.navbar-nav > li > .dropdown-menu a{   color: #555555;  }
+.navbar-nav > li > .dropdown-menu a:hover{   color: blue;  }
+
+
+@media only screen and (max-width: 576px) {
+    #search-icon{
+        display: none;
+    }
+}
