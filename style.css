@@ -1,8 +1,14 @@
 /* Navigation bar */
 
+#home{
+    color:white; 
+    margin-right: 30px;
+    
+}
 
 #search-icon{
     color:white;
+    margin-right: 20px;
 }
 
 .navigationBar {
@@ -11,7 +17,8 @@
     font-family: 'Headland One', serif;
 }
 #navbarContent ul li{
-    padding-right: 30px;
+    margin-right: 30px;
+    
 }
 #navbarContent ul li a{
     color: #ffffff;
@@ -19,7 +26,20 @@
 
 .navbar-nav > li > .dropdown-menu {background-color: black;  }
 .navbar-nav > li > .dropdown-menu a{   color: #555555;  }
-.navbar-nav > li > .dropdown-menu a:hover{   color: blue;  }
+
+.navbar-nav > li > .dropdown-menu a:hover{ 
+      background-color:#404040;
+      background-image: none;
+    }
+
+#home:hover{
+    background-color: #404040;
+}
+
+.navbar-nav > li > a:hover{
+    background-color:#404040;
+}
+
 
 
 @media only screen and (max-width: 576px) {
