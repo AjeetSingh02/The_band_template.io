@@ -1,9 +1,10 @@
-/* Navigation bar */
-
 #home{
     color:white; 
-    margin-right: 30px;
+    margin-right: 20px;
     
+}
+#home:hover{
+    background-color: #a6a6a6;
 }
 
 #search-icon{
@@ -17,7 +18,7 @@
     font-family: 'Headland One', serif;
 }
 #navbarContent ul li{
-    margin-right: 30px;
+    margin-right: 20px;
     
 }
 #navbarContent ul li a{
@@ -28,16 +29,15 @@
 .navbar-nav > li > .dropdown-menu a{   color: #555555;  }
 
 .navbar-nav > li > .dropdown-menu a:hover{ 
-      background-color:#404040;
+      background-color:#a6a6a6;
       background-image: none;
     }
 
-#home:hover{
-    background-color: #404040;
-}
+
 
 .navbar-nav > li > a:hover{
-    background-color:#404040;
+    background-color:#a6a6a6;
+    ;
 }
 
 
@@ -46,4 +46,4 @@
     #search-icon{
         display: none;
     }
-}
+} 
