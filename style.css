@@ -53,10 +53,22 @@
     margin-bottom: 15px;
 }
 
+/* band-description */
 
+.band-description{
+    margin-top: 60px;
+    text-align: center;
+}
+.band-description h1{
+    font-family: 'Headland One', serif;
+}
 
-
-
+.desc{
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
 
 
 
@@ -64,5 +76,18 @@
 @media only screen and (max-width: 576px) {
     #search-icon{
         display: none;
+    }
+    .desc{
+        margin-left: 30px;
+        margin-right:30px;
+    }
+    
+    
+} 
+
+@media only screen and (max-width: 850px) {
+    .desc{
+        margin-left: 50px;
+        margin-right: 50px;
     }
 } 
