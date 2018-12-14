@@ -1,25 +1,28 @@
+/* navigation Bar */
 #home{
     color:white; 
     margin-right: 20px;
     
 }
-#home:hover{
+#home:hover, #search-icon:hover{
     background-color: #a6a6a6;
 }
 
 #search-icon{
     color:white;
     margin-right: 20px;
+    padding: 4px 12px;
 }
+
 
 .navigationBar {
     background-color: black;
-    font-size: 95%;
+    font-size: 90%;
     font-family: 'Headland One', serif;
+    
 }
 #navbarContent ul li{
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 #navbarContent ul li a{
     color: #ffffff;
@@ -33,15 +36,31 @@
       background-image: none;
     }
 
-
-
 .navbar-nav > li > a:hover{
     background-color:#a6a6a6;
-    ;
+}
+
+
+/* carousel */
+
+#carousel img{
+    max-height: 100%; 
+    max-width: 100%;
+}
+
+#carousel h1, #carousel p{
+    font-family: 'Headland One', serif;
+    margin-bottom: 15px;
 }
 
 
 
+
+
+
+
+
+/* media Queries */
 @media only screen and (max-width: 576px) {
     #search-icon{
         display: none;
