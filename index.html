@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Charm|Headland+One" rel="stylesheet">
     
@@ -113,8 +114,8 @@
 
     <!--The Band Description paragraph-->
     <div class="band-description">
-        <h1>THE BAND</h1><br>
-        <p style="font-family: 'Charm', cursive; font-size: 25px; color:#696868; font-weight: bold">We love music</p>
+        <h1>THE BAND</h1><br>       
+        <p class="love">We love music</p><!--change --> 
         <p class="desc">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <br> <hr class="my-4">
@@ -212,9 +213,59 @@
 
     <!--Contact section-->
 
+    <div class="container contact-heading" style="text-align:center;">
+        <h1>Contact</h1> <!--change-->
+        <p>Fan? Send a note!</p>
+    </div>
+    <div class="contact" style="margin-top:20px;">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 address" >
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-earphone"></span> Phone: +00 151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group col-sm-6" >
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group" >
+                        <input type="text" class="form-control" placeholder="Message">
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button type="submit" class="btn" id="dark-button">Send</button>     
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+
 
     <!--Photo and footer-->
+    <div>
+        <img class="footer-photo w-100 img-fluid" src="https://www.w3schools.com/w3images/map.jpg" alt="">
+    </div>
 
+    <div class="footer">
+        <h3>Follow us at:</h3>
+        <div class="social-media">
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" class="fa fa-twitter"></a>
+            <a href="https://plus.google.com/" class="fa fa-google"></a>
+            <a href="https://in.linkedin.com" class="fa fa-linkedin"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com">W3Schools</a></p>
+    </div>
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
