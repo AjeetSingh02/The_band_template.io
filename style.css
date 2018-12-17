@@ -61,15 +61,25 @@
 }
 .band-description h1{
     font-family: 'Headland One', serif;
+    color: #000000;         /* change */
 }
 
-.desc{
+.band-description .love{    /* change */
+    font-family: 'Charm', cursive;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #a6a6a6;
+    font-size: 20px;
+    
+}
+.band-description .desc{     /* change */
     text-align: justify;
     margin-left: 80px;
     margin-right: 80px;
+    color: #000000;
 }
 
-/* meet the team section */
+/*************************** meet the team section ************/
 .meet-team{
     text-align:center; 
     margin-top:40px;
@@ -78,6 +88,7 @@
 }
 .meet-team h1{
     font-size: 50px;
+    color: #000000;         /* change */
 }
 
 
@@ -126,20 +137,131 @@
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
+    background-color: #000000;   /* change */
+}
+
+.dates-photo .btn{
+    background-color: #000000;
+}
+.dates-photo .btn:hover{            /* change */
+    background-color:  #ffffff;
+    color: #000000;
+    font-weight: bold;
+ 
+}
+
+/* ***************contact section ************ */
+.contact-heading h1{
+    font-family: 'Headland One', serif;
+    color: #000000;
+}
+.contact-heading p{
+    font-family: 'Charm', cursive;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #a6a6a6;
+    font-size: 15px;
+}
+.contact-heading{
+    margin-top: 40px;
+}
+
+.contact .address{
+    padding-left:50px;
+}
+
+.contact .address p{
+    font-family: 'Headland One', serif;
+    font-weight: bolder;
+    color: #000000;
+    
+}
+
+.contact form{
+    padding-right: 50px;
+}
+
+.contact{
+    margin: 30px;
+}
+
+
+.contact #dark-button{
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+
+/********************* footer and photo ****************/
+.footer-photo{
+    margin-top: 40px;
+}
+.footer{
+    text-align: center;
+    margin-top: 100px;
+}
+.footer h3, .footer p{
+    font-family: 'Headland One', serif;
+}
+
+.social-media{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media .fa{
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+
+.social-media .fa:hover{
+    opacity: 0.7;
+}
+
+.social-media .fa-facebook{
+    background-color: #3b5998;
+}
+.social-media .fa-twitter{
+    background-color: #55acee;
+}
+.social-media .fa-google{
+    background-color: #dc4e41;
+}
+.social-media .fa-linkedin{
+    background-color: #0077b5;
+}
+.social-media .fa-youtube{
+    background-color: #cd201f;
+}
+.social-media .fa-instagram{
+    background-color: #3f729b;
+}
+
+.footer p a{
+    text-decoration: none;
 }
 
 
 
 
 
-
-
-
-/* media Queries */
+/********************** media Queries **********************/
 @media only screen and (max-width: 576px) {
     .desc{
         margin-left: 30px;
         margin-right:30px;
+    }
+    .social-media .fa{
+        padding: 10px;
+        border-radius: 50%;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
     }
     
     
@@ -148,6 +270,12 @@
 @media only screen and (max-width: 768px) {
     #search-icon{
         display: none;
+    }
+    .contact .address{
+        padding-left:17px;
+    }
+    .contact form{
+        padding-right: 0;
     }
 
 }
